@@ -13,3 +13,6 @@ process SamtoolsVersion {
     """
 }
 
+workflow {
+    SamtoolsVersion()
+}
